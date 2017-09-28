@@ -2,13 +2,10 @@
 # -*- coding: utf-8 -*-
 
 import telebot
-import requests
 import time
 import json
 import re
 import datetime
-import binascii
-from bs4 import BeautifulSoup
 from sortedcontainers import SortedDict
 from datetime import datetime
 from settings import BOT_TOKEN
