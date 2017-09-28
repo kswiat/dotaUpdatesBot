@@ -54,7 +54,6 @@ def deljson(value, filename):
             with open(filename + '.json', 'w') as f:
                 json.dump(data, f)
             return True
-            break
         elif data[key] == value:
             del data[key]
             with open(filename + '.json', 'w') as f:
